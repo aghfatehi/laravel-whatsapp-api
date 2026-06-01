@@ -1,0 +1,55 @@
+{
+    "name": "aghfatehi/laravel-whatsapp-api",
+    "description": "Meta WhatsApp Cloud API integration for Laravel 9-13. Supports all API services: messaging, media, templates, phone numbers, business profile, webhooks, QR codes, and conversations.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "whatsapp", "whatsapp-api", "meta", "whatsapp-cloud-api", "messaging"],
+    "authors": [
+        {
+            "name": "Agh Fatehi",
+            "homepage": "https://github.com/aghfatehi"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/http": "^9.0 || ^10.0 || ^11.0 || ^12.0 || ^13.0",
+        "illuminate/support": "^9.0 || ^10.0 || ^11.0 || ^12.0 || ^13.0",
+        "illuminate/contracts": "^9.0 || ^10.0 || ^11.0 || ^12.0 || ^13.0",
+        "psr/log": "^1.0 || ^2.0 || ^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0 || ^10.0 || ^11.0",
+        "orchestra/testbench": "^7.0 || ^8.0 || ^9.0 || ^10.0",
+        "mockery/mockery": "^1.5",
+        "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aghfatehi\\WhatsApp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aghfatehi\\WhatsApp\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage",
+        "lint": "pint --test",
+        "lint-fix": "pint"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aghfatehi\\WhatsApp\\WhatsAppServiceProvider"
+            ],
+            "aliases": {
+                "WhatsApp": "Aghfatehi\\WhatsApp\\Facades\\WhatsApp"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
