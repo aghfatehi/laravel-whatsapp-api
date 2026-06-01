@@ -1,5 +1,14 @@
 # aghfatehi/laravel-whatsapp-api
 
+<p align="center">
+    <a href="https://packagist.org/packages/aghfatehi/laravel-whatsapp-api"><img src="https://img.shields.io/packagist/v/aghfatehi/laravel-whatsapp-api.svg?style=flat-square" alt="Packagist Version"></a>
+    <a href="https://packagist.org/packages/aghfatehi/laravel-whatsapp-api"><img src="https://img.shields.io/packagist/dt/aghfatehi/laravel-whatsapp-api.svg?style=flat-square" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/aghfatehi/laravel-whatsapp-api"><img src="https://img.shields.io/packagist/php-v/aghfatehi/laravel-whatsapp-api?style=flat-square" alt="PHP Version"></a>
+    <a href="https://packagist.org/packages/aghfatehi/laravel-whatsapp-api"><img src="https://img.shields.io/badge/Laravel-9~13-red?style=flat-square&logo=laravel" alt="Laravel"></a>
+    <a href="https://github.com/aghfatehi/laravel-whatsapp-api/blob/main/LICENSE"><img src="https://img.shields.io/github/license/aghfatehi/laravel-whatsapp-api?style=flat-square" alt="License"></a>
+    <a href="https://github.com/aghfatehi/laravel-whatsapp-api/actions"><img src="https://img.shields.io/github/actions/workflow/status/aghfatehi/laravel-whatsapp-api/tests.yml?style=flat-square&label=tests" alt="Tests"></a>
+</p>
+
 Meta WhatsApp Cloud API integration for Laravel 9–13.  
 Supports all API services: messaging, media, templates, phone numbers, business profile, webhooks, QR codes, two-step verification, and conversations.
 
